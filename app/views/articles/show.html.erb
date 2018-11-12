@@ -1,0 +1,19 @@
+
+<h1>Listing article</h1>
+
+<p>
+	<strong>Title:</strong>
+	<%= @article.title %>
+</p>
+
+<p>
+	<strong>
+		Text:
+	</strong>
+	<%= @article.text %>
+</p>
+
+<p>
+	<%= link_to 'Home', root_path %> |
+	<%= link_to 'Back', articles_path %>
+</p>
